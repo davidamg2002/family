@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&family=Lobster&family=Source+Code+Pro:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <title>The family Portal</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Navigation menu -->
+      <nav class="nav-container">
+        <div class="nav-header">
+          <h1>Family Portal</h1>
+        </div>
+        <button class="nav-toggle">
+          <span class="material-icons md-48 menu"> menu </span>
+        </button>
+        <div class="nav-center">
+          <ul class="navbar">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#gallery" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="#blog" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#gallery" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Main Page -->
+      <section class="main">
+        <!-- Hero  -->
+        <div class="hero-image">
+          <div class="hero-text">
+            <h1>I am a web developer</h1>
+            <p>And also a Solutions Architect</p>
+            <button class="contact-btn">
+              <a href="#contact">contact me</a>
+            </button>
+          </div>
+        </div>
+        <!-- Sidebar -->
+        <div class="overlay">
+          <button class="close-btn">
+            <span class="material-icons"> close </span>
+          </button>
+          <aside class="sidebar">
+            <ul class="card">
+              <li class="side-link">
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li class="side-link">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="side-link">
+                <a href="#gallery" class="nav-link">Gallery</a>
+              </li>
+              <li class="side-link">
+                <a href="#blog" class="nav-link">Blog</a>
+              </li>
+              <li class="side-link">
+                <a href="#gallery" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </aside>
+        </div>
+        <section class="section-center">
+          <div class="section-card">
+            <img src="/family-portal/images/Grey-1.jpeg" alt="Grey-1" />
+            <div class="text-container">
+              <h4><b>Gregory Acheampong</b></h4>
+              <p>I am four years old</p>
+            </div>
+          </div>
+          <div class="section-card">
+            <img src="/family-portal/images/Esther-1.jpg" alt="Grey-1" />
+            <div class="text-container">
+              <h4><b>Esther Yeboah</b></h4>
+              <p>Here is our mummy</p>
+            </div>
+          </div>
+          <div class="section-card">
+            <img src="/family-portal/images/Ethan-1.jpeg" alt="Grey-1" />
+            <div class="text-container">
+              <h4><b>Ethan Acheampong</b></h4>
+              <p>I am four years old</p>
+            </div>
+          </div>
+        </section>
+      </section>
+      <footer class="page-footer">
+        <div class="copyright">
+          <p>Copyright &copy;<span id="year"></span>. All rights reserved</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Links</h4>
+          <ul>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a href="#blog">Blog</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-icons">
+          <div class="icons-header">
+            <h4>Social media</h4>
+          </div>
+          <div class="social-icons">
+            <a href="www.facebook.com">
+              <i class="fa-brands fa-facebook"> </i>
+            </a>
+            <a href="www.twitter.com">
+              <i class="fa-brands fa-twitter-square"></i>
+            </a>
+            <a href="www.instagram.com">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
